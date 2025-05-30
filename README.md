@@ -28,7 +28,7 @@ pip install tokenizers ==0.21.1
 ## Dataset Download & Introduction
 In this paper, we introduce a dataset called MRE-MI.
 
-You can download this dataset via Baidu Netdisk, and the download links are as follows: https:xxx
+You can download this dataset via Baidu Netdisk, and the download links are as follows: https://pan.baidu.com/s/1R8J7FDmMdp8jRNpdmmktLg?pwd=83xh.
 
 After downloading, you need to unzip the downloaded files and place them in the `dataset` folder, and the file structure should appear as follows:
 
@@ -57,3 +57,4 @@ The respective Hugging Face links are: https://huggingface.co/google-bert/bert-b
 
 ## Running
 After you have prepared the required enviroment, data, and models, you can run `python run.py` to train a model.
+You should re-search the hyperparameters to obtain the best results.
